@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="apiAuto">
+    <test name="apiCase">
+        <classes>
+            <class name="com.ggf.api.testcase.RegisterCase"/>
+            <class name="com.ggf.api.testcase.LoginCase"/>
+            <class name="com.ggf.api.testcase.ConfiguresCase"/>
+            <class name="com.ggf.api.testcase.ProjectListCase"/>
+            <class name="com.ggf.api.testcase.CreateProjectCase"/>
+        </classes>
+    </test>
+    
+</suite>
